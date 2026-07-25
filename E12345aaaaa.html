@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="google-site-verification" content="-LkgtHlPhP3dcs_a59xVUtoiAAmulU3h-9a_ADQ60QE" />
+  <meta charset="UTF-8">
+  <title>HONDA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content=" 500,000 /2022 ">
+  <link rel="icon" style="width: 100%" href="https://lh5.googleusercontent.com/d/1yRi_GNMcuYWbtRqeoE-9yuveKEg-lrv_" data-rh="true">
+  <meta property="og:image" content="https://lh3.googleusercontent.com/d/14H1fUP9eRP_1b3Dlm-Otxwal33PbmfQ0">
+
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+
+ <!-- ??????????????????? Apps Script -->
+    <link rel="preconnect" href="https://script.google.com">
+    <link rel="dns-prefetch" href="https://script.google.com">
+ 
+</head>
+
+    <!-- ??????? iframe ???????????? -->
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* ?????????????????????????? */
+        }
+
+         iframe {
+            width: 100%;
+            height: 100vh;
+            border: none;
+            loading: lazy; /* ???? iframe ??? Lazy Load */
+        }
+        
+        #loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: #2d7cff;
+            z-index: 999; /* ????????????????????????????? */
+        }
+        
+        #myFrame {
+            position: fixed; /* ??????????? fixed ?????????????? */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+            display: none;
+            z-index: 1000; /* ????? iframe ???????????????????? */
+        }
+    </style>
+ 
+<body>
+ <div id="loading">Loading platform...</div>
+ <iframe id="myFrame" src=""></iframe>
+ 
+<script>
+  (function() {
+    let carId = "";
+    let sellerId = "";
+
+    // 1. ???????????? Path ?????????? (???? E006179798669)
+    let pathname = window.location.pathname;
+    let pathSegments = pathname.split("/");
+    carId = pathSegments.length > 0 ? pathSegments[pathSegments.length - 1] : "";
+
+    // 2. ???????????????????????????? ? (???? AS9564758)
+    let searchStr = window.location.search;
+    if (searchStr.startsWith("?")) {
+        sellerId = searchStr.substring(1);
+    }
+
+    let cacheBust = new Date().getTime();
+    
+    // 3. ???????????????????????????????????????? (???? E006179798669AS9564758)
+    let combinedId = carId + sellerId;
+
+    // 4. ?????????????? ?seree= ???????
+    let link3 = "https://script.google.com/macros/s/AKfycbybhu0pQ1H5eHhxl9yj08V0WMn4XeeAXfiMqMdIIViSMmNRmKpxZ2jA7nEhB2bLdxvT/exec?seree=" + combinedId + "&cb=" + cacheBust;
+
+    let iframe = document.querySelector("#myFrame");
+    let loadingDiv = document.querySelector("#loading");
+
+    iframe.onload = function() {
+        loadingDiv.style.display = "none";
+        iframe.style.display = "block";
+    };
+
+    let link = window.location.href;
+    if (!link.includes("dealdee.github.io/index.html")) {
+        iframe.setAttribute("src", link3);
+    }
+  })();
+</script>
+
+</body>
+</html>
