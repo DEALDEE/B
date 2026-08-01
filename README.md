@@ -146,7 +146,7 @@
     let cacheBust = new Date().getTime();
     
     // ส่งค่ารวมไปที่ ?seree=
-    let link3 = "https://script.google.com/macros/s/AKfycbybhu0pQ1H5eHhxl9yj08V0WMn4XeeAXfiMqMdIIViSMmNRmKpxZ2jA7nEhB2bLdxvT/exec?seree=" + combinedId + "&cb=" + cacheBust;
+    let link3 = "https://script.google.com/macros/s/AKfycbzBpW00CY0Y3X9ZkwtFXGi_Nyv5aOes1KmQkToF-GmPmAwAUb9PYpgnDlMl9h8nbZde/exec?seree=" + combinedId + "&cb=" + cacheBust;
 
     let iframe = document.querySelector("#myFrame");
     let loadingDiv = document.querySelector("#loading");
