@@ -1,167 +1,133 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta name="google-site-verification" content="-LkgtHlPhP3dcs_a59xVUtoiAAmulU3h-9a_ADQ60QE" />
-  <meta charset="UTF-8">
-  <title>${banewetryunk1}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content=" ${banewetryunk2} /${banewetryunk3} ">
-  <link rel="icon" style="width: 100%" href="https://lh5.googleusercontent.com/d/1yRi_GNMcuYWbtRqeoE-9yuveKEg-lrv_" data-rh="true">
-  <meta property="og:image" content="${imageLink}">
-
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">
-
- <!-- เร่งการเชื่อมต่อกับ Apps Script -->
-    <link rel="preconnect" href="https://script.google.com">
-    <link rel="dns-prefetch" href="https://script.google.com">
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.css">
- 
-</head>
-
-    <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            overflow: hidden; 
-        }
-
-         iframe {
-            width: 100%;
-            height: 100vh;
-            border: none;
-            loading: lazy; 
-        } 
-        #myFrame {
-            position: fixed; 
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: 0;
-            display: none;
-            z-index: 1000;
-        }
-
-    #loading { 
+<style>
+.vhgfednswece1 {
+      z-index: 3000;
+      background-color: #fff;
+      display: none; 
       position: fixed; 
       top: 0; 
       left: 0; 
       width: 100%; 
       height: 100%; 
-      z-index: 100; 
-      background: linear-gradient(to bottom, #fff 0%, #DC2626 100%);
-    }
-
-    .aderaswefrcseer { 
-        display: flex;
-        flex-direction: column;
-        align-items: center;  
-        justify-content: center;
-        height: 100%;
-        margin: 0;
-        font-family: sans-serif;
-    }
-    .sdwwrasdew {
-      font-size: 20px; 
-      font-weight: 100;
-    }
-    .profionatainer { 
-        position: relative; 
-        width: 200px; 
-        height: 200px; 
-        display: flex; 
-        justify-content: center; 
-        align-items: center; 
-        margin-bottom: 20px; 
-    }
-    
-    .circzxsevg { 
-        position: absolute; 
-        width: 100%; 
-        height: 100%; 
-        transform: rotate(-90deg); 
-    }
-    .circleaqwerbg { 
-        fill: none; 
-        stroke: #ddd; 
-        stroke-width: 10; 
-    }
-    .imaswertox { 
-        width: 170px; 
-        height: 170px; 
-        background: #fff; 
-        padding: 0px;
-        border-radius: 50%; 
-        z-index: 1; 
-    }
-.imgsdewsdewox {
-    display: flex; 
-    align-items: center;  
-    gap: 10px;     
-    font-size: 15px; 
-    font-weight: 700;
-    color: #fff;
 }
+
+      .page_404 {
+        height: 100vh;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -30px;
+      }
+
+      .four_zero_four_bg {
+        background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+        margin: 10px auto;
+        margin-top: -20px;
+
+      }
+
+      .four_zero_four_bg h1 {
+        font-size: 120px;
+        margin: 0;
+        color: #fff;
+        text-shadow: 2px 2px #000;
+      }
+
+      .contant_box_404 {
+        margin-top: -100px;
+        text-align: center;
+      }
+
+      .contant_box_404 h3 {
+        font-size: 25px;
+        margin: 0;
+        color: #DC2626;
+        text-transform: uppercase;
+      }
+
+      .contant_box_404 p {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #444;
+      }
+
+      .link_404 {
+        color: #fff;
+        background-color: #39ac31;
+        padding: 12px 20px;
+        border-radius: 25px;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-top: 50px;
+        display: inline-block;
+        transition: all 0.3s ease-in-out;
+      }
+
+      .link_404:hover {
+        background-color: #333;
+        color: #fff;
+        transform: scale(1.1);
+      }
+
+.btlponmnbgtrereswen1 {
+  color: #004aad;
+  border: 2px solid #004aad;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+  letter-spacing: 2px;
+  cursor: pointer; /* เพิ่ม cursor pointer เพื่อให้รู้ว่าคลิกได้ */
+  transition: all 0.3s ease;
+}
+
+.btlponmnbgtrereswen1:active {
+  transform: scale(0.95);
+  background-color: #004aad;
+  color: #fff;
+  transition: all 0.2s ease;
+}
+
 </style>
- 
-<body>
 
-  <div id="loading">
-   <div class="aderaswefrcseer">
-    <div class="profionatainer">
-        <svg class="circzxsevg">
-            <circle class="circleaqwerbg" cx="100" cy="100" r="90"></circle>
-        </svg>
-        <img src="https://lh3.googleusercontent.com/d/1f14wHxZ-QYGyOo3z3T5g6mtbclQDo7PK" class="imaswertox">
-    </div>
 
-    <div class="imgsdewsdewox">
-         <span class="mdi mdi-loading mdi-spin sdwwrasdew"></span> <div>กรุณารอสักครู่....</div>
-    </div>
+  <div class="vhgfednswece1" id="hgfresaeswds1" style="display:none">
+    <section class="page_404">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="col-sm-10 col-sm-offset-1 text-center">
+              <div class="four_zero_four_bg">
+                <h1 class="text-center">404</h1>
+              </div>
 
-   </div>
+              <div class="contant_box_404">
+                <h3 class="h2">ไม่พบหน้าที่คุณกำลังค้นหา</h3>
 
+                <p>
+                  กรุณาตรวจสอบลิ้งค์เว็บไซต์ของท่าน หรือติดต่อเจ้าหน้าที่เพื่อขอคำตอบ
+                </p>
+
+                <!-- <button type="button" class="btlponmnbgtrereswen1">ไปยังเว็บไซต์หลักของเรา</button> -->
+                 <a class="btlponmnbgtrereswen1" href="https://line.me/R/oaMessage/@799fctiw/?เว็บไซต์เกิดความผิดพลาด" target="_blank" rel="noopener noreferrer">ติดต่อไปยังไลน์ของเรา</a>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
-
- <iframe id="myFrame" src=""></iframe>
- 
-<script>
-  (function() {
-    let combinedId = "";
-    
-    // ดึง path ทั้งหมดหลังจากโดเมน (เช่น /path/to/page?query=123)
-    let fullPath = window.location.pathname + window.location.search;
-    
-    // ตัดเครื่องหมาย / ตัวแรกออก (ถ้ามี) เพื่อให้ได้ค่าที่ต่อกันสวยงาม
-    if (fullPath.startsWith("/")) {
-        fullPath = fullPath.substring(1);
-    }
-    
-    combinedId = fullPath;
-
-    let cacheBust = new Date().getTime();
-    
-    // ส่งค่ารวมไปที่ ?seree=
-    let link3 = "https://script.google.com/macros/s/AKfycbzBpW00CY0Y3X9ZkwtFXGi_Nyv5aOes1KmQkToF-GmPmAwAUb9PYpgnDlMl9h8nbZde/exec?seree=" + combinedId + "&cb=" + cacheBust;
-
-    let iframe = document.querySelector("#myFrame");
-    let loadingDiv = document.querySelector("#loading");
-
-    iframe.onload = function() {
-        loadingDiv.style.display = "none";
-        iframe.style.display = "block";
-    };
-
-    let link = window.location.href;
-    if (!link.includes("dealdee.github.io/index.html")) {
-        iframe.setAttribute("src", link3);
-    }
-  })();
-</script>
-
-</body>
-</html>
